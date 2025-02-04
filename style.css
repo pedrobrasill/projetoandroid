@@ -4,23 +4,28 @@
     margin: 0;
     padding: 0;
 }
-.negrito{
-    color: #ed61ff;
-}
-:root{
-    --font0: Arial, Helvetica, sans-serif;
-    --font1: 'Bebas Neue', cursive;
-    --font2: 'Droid', sans-serif; 
-}
+
 @font-face {
     font-family: 'Droid';
     src: url('font/idroid.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
+:root{
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Droid', sans-serif; 
+}
+
 body{
     background-color: #f5b6fd;
 }
+
+.negrito{
+    color: #ed61ff;
+}
+
 header{
     background-image: linear-gradient(to bottom,  rgb(234, 194, 250),  rgb(190, 30, 253));
     margin: auto;
