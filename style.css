@@ -51,18 +51,18 @@ header > p{
     text-align: center;
 }
 nav{
-    text-align: center;
+    text-align: left;
     padding: 10px;
     text-shadow: 0px 1px 1px black;
 }
 nav > a{
     color: white;
-    padding: 10px;
+    padding: 3px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
     transition-duration: .2s;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 nav > a:hover{
     background-color: #ed61ff;
