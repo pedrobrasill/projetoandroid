@@ -40,7 +40,7 @@ header > h1{
     font-size: 1.7em;
 }
 header > p{
-    font-family: var(--font1);
+    font-family: var(--font0);
     font-size: 1.1em;
     color: white;
     max-width: 600px;
@@ -51,18 +51,18 @@ header > p{
     text-align: center;
 }
 nav{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     text-shadow: 0px 1px 1px black;
 }
 nav > a{
     color: white;
-    padding: 3px;
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
     transition-duration: .2s;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 nav > a:hover{
     background-color: #ed61ff;
